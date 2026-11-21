@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kisaasi Furniture and Interiors | Give Your Home a New Look</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">KISAASI <span>FURNITURE AND<br>INTERIORS</span></div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="welcome"><span>WELCOME TO KISAASI FURNITURE AND INTERIORS</span></p>
+      <h1>Give Your Home <span>A New Look</span></h1>
+      <p>
+        Transform your living space with beautiful,
+        stylish and quality furniture.
+      </p>
+      <a href="#gallery" class="btn">Explore Our Work</a>
+      <a href="https://wa.me/256780410231"
+         class="btn whatsapp">Chat With Us</a>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <h2>Our <span>Services</span></h2>
+
+    <div class="service-container">
+      <div class="service-card">
+        <h3>Furniture</h3>
+        <p>Beautiful furniture for modern homes.</p>
+      </div>
+
+      <div class="service-card">
+        <h3>Interior Design</h3>
+        <p>Give your rooms a fresh and stylish appearance.</p>
+      </div>
+
+      <div class="service-card">
+        <h3>Home Decoration</h3>
+        <p>Make your home comfortable and attractive.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery" id="gallery">
+    <h2>Our <span>Gallery</span></h2>
+    <p>Discover beautiful furniture and interior inspiration.</p>
+
+    <div class="gallery-filters" role="group" aria-label="Filter gallery">
+      <button class="filter-btn active" type="button" data-filter="all" aria-pressed="true">All</button>
+      <button class="filter-btn" type="button" data-filter="living" aria-pressed="false">Living Room</button>
+<button class="filter-btn" type="button" data-filter="dining" aria-pressed="false">Dining</button>
+      <button class="filter-btn" type="button" data-filter="beds" aria-pressed="false">Beds</button>
+      <button class="filter-btn" type="button" data-filter="centre-tables" aria-pressed="false">Centre Tables</button>
+      <button class="filter-btn" type="button" data-filter="side-beds" aria-pressed="false">Side Beds</button>
+      <button class="filter-btn" type="button" data-filter="tv-stands" aria-pressed="false">TV Stands</button>
+    </div>
+
+    <div class="gallery-container" aria-live="polite">
+      <button class="gallery-item featured" type="button" data-category="living" aria-label="View Modern living room">
+        <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&auto=format&fit=crop" alt="Modern living room" loading="lazy">
+        <span class="gallery-caption">Modern Living Room</span>
+      </button>
+
+      <button class="gallery-item featured" type="button" data-category="living" aria-label="View Stylish furniture">
+        <img src="https://images.unsplash.com/photo-1550226891-ef816aed4a98?w=800&auto=format&fit=crop" alt="Stylish furniture" loading="lazy">
+        <span class="gallery-caption">Stylish Furniture</span>
+      </button>
+
+      <button class="gallery-item featured" type="button" data-category="beds" aria-label="View Elegant bedroom">
+        <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&auto=format&fit=crop" alt="Elegant bedroom interior" loading="lazy">
+        <span class="gallery-caption">Elegant Bedroom</span>
+      </button>
+
+      <button class="gallery-item featured" type="button" data-category="living" aria-label="View Contemporary interior">
+        <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800&auto=format&fit=crop" alt="Contemporary home interior" loading="lazy">
+        <span class="gallery-caption">Contemporary Interior</span>
+      </button>
+
+      <button class="gallery-item" type="button" data-category="beds" aria-label="View Luxury bedroom">
+        <img src="https://images.unsplash.com/photo-1615874694520-474822394e73?w=800&auto=format&fit=crop" alt="Luxury bedroom" loading="lazy">
+        <span class="gallery-caption">Luxury Bedroom</span>
+      </button>
+
+      <button class="gallery-item" type="button" data-category="living" aria-label="View Designer lounge">
+        <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&auto=format&fit=crop" alt="Designer lounge" loading="lazy">
+        <span class="gallery-caption">Designer Lounge</span>
+      </button>
+
+      <button class="gallery-item featured" type="button" data-category="dining" aria-label="View Grey dining set">
+        <img src="images/DINING_01.jpg" alt="Grey dining table and chairs" loading="lazy">
+        <span class="gallery-caption">Grey Dining Set</span>
+      </button>
+
+      <button class="gallery-item featured" type="button" data-category="dining" aria-label="View Wooden dining set">
+        <img src="images/DINING_02.jpg" alt="Wooden dining table with cream chairs" loading="lazy">
+        <span class="gallery-caption">Wooden Dining Set</span>
+      </button>
+
+      <button class="gallery-item" type="button" data-category="dining" aria-label="View Marble dining set">
+        <img src="images/DINING_03.jpg" alt="White marble dining table and chairs" loading="lazy">
+        <span class="gallery-caption">Marble Dining Set</span>
+      </button>
+
+      <button class="gallery-item" type="button" data-category="dining" aria-label="View Marble dining set">
+        <img src="images/MARBLE_01.jpg" alt="Gold and white marble dining set" loading="lazy">
+        <span class="gallery-caption">Gold Marble Dining Set</span>
+      </button>
+
+      <button class="gallery-item" type="button" data-category="dining" aria-label="View Marble dining set">
+        <img src="images/MARBLE_02.JPG" alt="White marble dining set with yellow chairs" loading="lazy">
+        <span class="gallery-caption">White Marble Dining Set</span>
+      </button>
+
+      <button class="gallery-item" type="button" data-category="dining" aria-label="View Marble dining set">
+        <img src="images/MARBLE_03.JPG" alt="Grey marble dining set with grey chairs" loading="lazy">
+        <span class="gallery-caption">Grey Marble Dining Set</span>
+      </button>
+
+      <button class="gallery-item" type="button" data-category="dining" aria-label="View Blue dining set">
+        <img src="images/DINING_05.JPG" alt="White dining table with blue upholstered chairs" loading="lazy">
+        <span class="gallery-caption">Blue Dining Set</span>
+      </button>
+
+      <button class="gallery-item" type="button" data-category="dining" aria-label="View Modern round dining set">
+        <img src="images/DINING_04.jpg" alt="Modern round dining table and chairs" loading="lazy">
+        <span class="gallery-caption">Modern Round Dining Set</span>
+      </button>
+
+      <button class="gallery-item" type="button" data-category="beds" aria-label="View King size bed">
+        <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800&auto=format&fit=crop" alt="Modern king size bed" loading="lazy">
+        <span class="gallery-caption">King Size Bed</span>
+      </button>
+
+      <button class="gallery-item" type="button" data-category="beds" aria-label="View Double bed">
+        <img src="https://images.unsplash.com/photo-1560185007-c5ca9d2c014d?w=800&auto=format&fit=crop" alt="Comfortable double bed" loading="lazy">
+        <span class="gallery-caption">Comfortable Double Bed</span>
+      </button>
+
+      <button class="gallery-item featured" type="button" data-category="centre-tables" aria-label="View Centre coffee table">
+        <img src="images/IMG_4707.JPG" alt="Brown wooden centre table" loading="lazy">
+        <span class="gallery-caption">Wooden Centre Table</span>
+      </button>
+
+      <button class="gallery-item" type="button" data-category="centre-tables" aria-label="View Wooden centre table">
+        <img src="images/IMG_4671.JPG" alt="Round wooden centre table" loading="lazy">
+        <span class="gallery-caption">Round Centre Table</span>
+      </button>
+
+      <button class="gallery-item" type="button" data-category="centre-tables" aria-label="View Black centre table">
+        <img src="images/IMG_4705.JPG" alt="Black round centre table" loading="lazy">
+        <span class="gallery-caption">Black Centre Table</span>
+      </button>
+
+      <button class="gallery-item" type="button" data-category="centre-tables" aria-label="View Modern centre table">
+        <img src="images/IMG_4706.JPG" alt="Modern wooden centre tables" loading="lazy">
+        <span class="gallery-caption">Modern Centre Table</span>
+      </button>
+
+      <button class="gallery-item" type="button" data-category="side-beds" aria-label="View Bedside table">
+        <img src="https://images.unsplash.com/photo-1532323544230-7191fd51bc1b?w=800&auto=format&fit=crop" alt="Bedside table with decor" loading="lazy">
+        <span class="gallery-caption">Bedside Table</span>
+      </button>
+
+      <button class="gallery-item" type="button" data-category="side-beds" aria-label="View Side bed cabinet">
+        <img src="https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=800&auto=format&fit=crop" alt="Modern side cabinet beside bed" loading="lazy">
+        <span class="gallery-caption">Modern Side Cabinet</span>
+      </button>
+
+      <button class="gallery-item featured" type="button" data-category="side-beds" aria-label="View Four drawer dresser">
+        <img src="images/DRESSER_01.jpg" alt="White four drawer dresser" loading="lazy">
+        <span class="gallery-caption">Four Drawer Dresser</span>
+      </button>
+
+      <button class="gallery-item" type="button" data-category="beds" aria-label="View Grey upholstered bed">
+        <img src="images/BED_01.jpg" alt="Grey upholstered bed with bedside tables" loading="lazy">
+        <span class="gallery-caption">Grey Upholstered Bed</span>
+      </button>
+
+      <button class="gallery-item" type="button" data-category="beds" aria-label="View Modern blue bed">
+        <img src="images/BED_02.jpg" alt="Modern blue upholstered bed" loading="lazy">
+        <span class="gallery-caption">Modern Blue Bed</span>
+      </button>
+
+      <button class="gallery-item" type="button" data-category="beds" aria-label="View Wooden platform bed">
+        <img src="images/BED_03.jpg" alt="Wooden platform bed with wall panel" loading="lazy">
+        <span class="gallery-caption">Wooden Platform Bed</span>
+      </button>
+
+      <button class="gallery-item" type="button" data-category="beds" aria-label="View Black luxury bed">
+        <img src="images/BED_04.jpg" alt="Black luxury bedroom furniture set" loading="lazy">
+        <span class="gallery-caption">Black Luxury Bed Set</span>
+      </button>
+
+      <button class="gallery-item" type="button" data-category="beds" aria-label="View cream and wood bed">
+        <img src="images/BED_NEW_01.jpg" alt="Cream and wood bed with storage" loading="lazy"><span class="gallery-caption">Cream Wood Bed</span>
+      </button>
+      <button class="gallery-item" type="button" data-category="beds" aria-label="View sculpted white bed">
+        <img src="images/BED_NEW_02.jpg" alt="Sculpted white upholstered bed" loading="lazy"><span class="gallery-caption">Sculpted White Bed</span>
+      </button>
+      <button class="gallery-item" type="button" data-category="beds" aria-label="View blue upholstered bed">
+        <img src="images/BED_NEW_03.jpg" alt="Blue upholstered bed" loading="lazy"><span class="gallery-caption">Blue Upholstered Bed</span>
+      </button>
+      <button class="gallery-item" type="button" data-category="beds" aria-label="View modern panel bed">
+        <img src="images/BED_NEW_04.jpg" alt="Modern panel bed with side lamps" loading="lazy"><span class="gallery-caption">Modern Panel Bed</span>
+      </button>
+      <button class="gallery-item" type="button" data-category="beds" aria-label="View wooden cream bed">
+        <img src="images/BED_NEW_05.jpg" alt="Wooden bed with cream headboard" loading="lazy"><span class="gallery-caption">Wooden Cream Bed</span>
+      </button>
+      <button class="gallery-item" type="button" data-category="beds" aria-label="View navy blue bedroom set">
+        <img src="images/BED_NEW_06.jpg" alt="Blue bedroom bed and lighting" loading="lazy"><span class="gallery-caption">Navy Bedroom Set</span>
+      </button>
+      <button class="gallery-item" type="button" data-category="beds" aria-label="View geometric blue bed">
+        <img src="images/BED_NEW_07.jpg" alt="Blue geometric upholstered bed" loading="lazy"><span class="gallery-caption">Geometric Blue Bed</span>
+      </button>
+      <button class="gallery-item" type="button" data-category="beds" aria-label="View grey upholstered bed">
+        <img src="images/BED_NEW_08.jpg" alt="Grey upholstered bed" loading="lazy"><span class="gallery-caption">Grey Upholstered Bed</span>
+      </button>
+      <button class="gallery-item" type="button" data-category="beds" aria-label="View modern grey bed">
+        <img src="images/BED_NEW_09.jpg" alt="Modern grey bed" loading="lazy"><span class="gallery-caption">Modern Grey Bed</span>
+      </button>
+      <button class="gallery-item" type="button" data-category="beds" aria-label="View luxury wooden bed">
+        <img src="images/BED_NEW_10.jpg" alt="Luxury wooden bed" loading="lazy"><span class="gallery-caption">Luxury Wooden Bed</span>
+      </button>
+      <button class="gallery-item" type="button" data-category="beds" aria-label="View black upholstered bed">
+        <img src="images/BED_NEW_11.jpg" alt="Black upholstered bed set" loading="lazy"><span class="gallery-caption">Black Upholstered Bed</span>
+      </button>
+      <button class="gallery-item" type="button" data-category="beds" aria-label="View blue storage bed">
+        <img src="images/BED_NEW_12.jpg" alt="Blue storage bed" loading="lazy"><span class="gallery-caption">Blue Storage Bed</span>
+      </button>
+      <button class="gallery-item" type="button" data-category="beds" aria-label="View blue geometric bed">
+        <img src="images/BED_NEW_13.jpg" alt="Blue bed with geometric headboard" loading="lazy"><span class="gallery-caption">Blue Geometric Bed</span>
+      </button>
+      <button class="gallery-item" type="button" data-category="beds" aria-label="View blue platform bed">
+        <img src="images/BED_NEW_14.jpg" alt="Blue platform bed" loading="lazy"><span class="gallery-caption">Blue Platform Bed</span>
+      </button>
+      <button class="gallery-item" type="button" data-category="beds" aria-label="View blue classic bed">
+        <img src="images/BED_NEW_15.jpg" alt="Classic blue bed" loading="lazy"><span class="gallery-caption">Classic Blue Bed</span>
+      </button>
+      <button class="gallery-item" type="button" data-category="beds" aria-label="View yellow upholstered bed">
+        <img src="images/BED_NEW_16.jpg" alt="Yellow upholstered bed" loading="lazy"><span class="gallery-caption">Yellow Upholstered Bed</span>
+      </button>
+      <button class="gallery-item" type="button" data-category="beds" aria-label="View cream luxury bed">
+        <img src="images/BED_NEW_17.jpg" alt="Cream luxury bed" loading="lazy"><span class="gallery-caption">Cream Luxury Bed</span>
+      </button>
+      <button class="gallery-item" type="button" data-category="beds" aria-label="View purple upholstered bed">
+        <img src="images/BED_NEW_18.jpg" alt="Purple upholstered bed" loading="lazy"><span class="gallery-caption">Purple Upholstered Bed</span>
+      </button>
+      <button class="gallery-item" type="button" data-category="beds" aria-label="View teal upholstered bed">
+        <img src="images/BED_NEW_19.jpg" alt="Teal upholstered bed" loading="lazy"><span class="gallery-caption">Teal Upholstered Bed</span>
+      </button>
+      <button class="gallery-item" type="button" data-category="beds" aria-label="View cream bouclé bed">
+        <img src="images/BED_NEW_20.jpg" alt="Cream bouclé bed" loading="lazy"><span class="gallery-caption">Cream Bouclé Bed</span>
+      </button>
+      <button class="gallery-item" type="button" data-category="beds" aria-label="View beige upholstered bed">
+        <img src="images/BED_NEW_21.jpg" alt="Beige upholstered bed" loading="lazy"><span class="gallery-caption">Beige Upholstered Bed</span>
+      </button>
+      <button class="gallery-item" type="button" data-category="beds" aria-label="View grey and wood bed">
+        <img src="images/BED_NEW_22.jpg" alt="Grey and wood bedroom set" loading="lazy"><span class="gallery-caption">Grey Wood Bed</span>
+      </button>
+      <button class="gallery-item" type="button" data-category="beds" aria-label="View blue slatted bed">
+        <img src="images/BED_NEW_23.jpg" alt="Blue slatted bed" loading="lazy"><span class="gallery-caption">Blue Slatted Bed</span>
+      </button>
+      <button class="gallery-item" type="button" data-category="beds" aria-label="View cream bed frame">
+        <img src="images/BED_NEW_24.jpg" alt="Cream upholstered bed frame" loading="lazy"><span class="gallery-caption">Cream Bed Frame</span>
+      </button>
+      <button class="gallery-item" type="button" data-category="beds" aria-label="View wood panel bed">
+        <img src="images/BED_NEW_25.jpg" alt="Wood panel bed" loading="lazy"><span class="gallery-caption">Wood Panel Bed</span>
+      </button>
+      <button class="gallery-item" type="button" data-category="beds" aria-label="View modern wood bed">
+        <img src="images/BED_NEW_26.jpg" alt="Modern wood bed with storage" loading="lazy"><span class="gallery-caption">Modern Wood Bed</span>
+      </button>
+      <button class="gallery-item" type="button" data-category="beds" aria-label="View cream tufted bed">
+        <img src="images/BED_NEW_27.jpg" alt="Cream tufted bed" loading="lazy"><span class="gallery-caption">Cream Tufted Bed</span>
+      </button>
+      <button class="gallery-item" type="button" data-category="beds" aria-label="View cream cloud bed">
+        <img src="images/BED_NEW_28.jpg" alt="Cream cloud bed" loading="lazy"><span class="gallery-caption">Cream Cloud Bed</span>
+      </button>
+      <button class="gallery-item" type="button" data-category="beds" aria-label="View colourful upholstered beds">
+        <img src="images/BED_NEW_29.jpg" alt="Colourful upholstered beds" loading="lazy"><span class="gallery-caption">Colourful Upholstered Beds</span>
+      </button>
+      <button class="gallery-item" type="button" data-category="beds" aria-label="View walnut platform bed">
+        <img src="images/BED_NEW_30.jpg" alt="Walnut platform bed" loading="lazy"><span class="gallery-caption">Walnut Platform Bed</span>
+      </button>
+      <button class="gallery-item" type="button" data-category="beds" aria-label="View burgundy upholstered bed">
+        <img src="images/BED_NEW_31.jpg" alt="Burgundy upholstered bed" loading="lazy"><span class="gallery-caption">Burgundy Upholstered Bed</span>
+      </button>
+
+      <button class="gallery-item" type="button" data-category="tv-stands" aria-label="View TV stand 1"><img src="images/TV_01.jpg" alt="Modern TV stand" loading="lazy"><span class="gallery-caption">TV Stand 1</span></button>
+      <button class="gallery-item" type="button" data-category="tv-stands" aria-label="View TV stand 2"><img src="images/TV_02.jpg" alt="Modern TV stand" loading="lazy"><span class="gallery-caption">TV Stand 2</span></button>
+      <button class="gallery-item" type="button" data-category="tv-stands" aria-label="View TV stand 3"><img src="images/TV_03.jpg" alt="Modern TV stand" loading="lazy"><span class="gallery-caption">TV Stand 3</span></button>
+      <button class="gallery-item" type="button" data-category="tv-stands" aria-label="View TV stand 4"><img src="images/TV_04.jpg" alt="Modern TV stand" loading="lazy"><span class="gallery-caption">TV Stand 4</span></button>
+      <button class="gallery-item" type="button" data-category="tv-stands" aria-label="View TV stand 5"><img src="images/TV_05.jpg" alt="Modern TV stand" loading="lazy"><span class="gallery-caption">TV Stand 5</span></button>
+      <button class="gallery-item" type="button" data-category="tv-stands" aria-label="View TV stand 6"><img src="images/TV_06.jpg" alt="Modern TV stand" loading="lazy"><span class="gallery-caption">TV Stand 6</span></button>
+      <button class="gallery-item" type="button" data-category="tv-stands" aria-label="View TV stand 7"><img src="images/TV_07.jpg" alt="Modern TV stand" loading="lazy"><span class="gallery-caption">TV Stand 7</span></button>
+      <button class="gallery-item" type="button" data-category="tv-stands" aria-label="View TV stand 8"><img src="images/TV_08.jpg" alt="Modern TV stand" loading="lazy"><span class="gallery-caption">TV Stand 8</span></button>
+      <button class="gallery-item" type="button" data-category="tv-stands" aria-label="View TV stand 9"><img src="images/TV_09.jpg" alt="Modern TV stand" loading="lazy"><span class="gallery-caption">TV Stand 9</span></button>
+      <button class="gallery-item" type="button" data-category="tv-stands" aria-label="View TV stand 10"><img src="images/TV_10.jpg" alt="Modern TV stand" loading="lazy"><span class="gallery-caption">TV Stand 10</span></button>
+      <button class="gallery-item" type="button" data-category="tv-stands" aria-label="View TV stand 11"><img src="images/TV_11.jpg" alt="Modern TV stand" loading="lazy"><span class="gallery-caption">TV Stand 11</span></button>
+      <button class="gallery-item" type="button" data-category="tv-stands" aria-label="View TV stand 12"><img src="images/TV_12.JPG" alt="Modern TV stand" loading="lazy"><span class="gallery-caption">TV Stand 12</span></button>
+      <button class="gallery-item" type="button" data-category="tv-stands" aria-label="View TV stand 13"><img src="images/TV_13.JPG" alt="Modern TV stand" loading="lazy"><span class="gallery-caption">TV Stand 13</span></button>
+      <button class="gallery-item" type="button" data-category="tv-stands" aria-label="View TV stand 14"><img src="images/TV_14.JPG" alt="Modern TV stand" loading="lazy"><span class="gallery-caption">TV Stand 14</span></button>
+      <button class="gallery-item" type="button" data-category="tv-stands" aria-label="View TV stand 15"><img src="images/TV_15.JPG" alt="Modern TV stand" loading="lazy"><span class="gallery-caption">TV Stand 15</span></button>
+      <button class="gallery-item" type="button" data-category="tv-stands" aria-label="View TV stand 16"><img src="images/TV_16.JPG" alt="Modern TV stand" loading="lazy"><span class="gallery-caption">TV Stand 16</span></button>
+      <button class="gallery-item" type="button" data-category="tv-stands" aria-label="View TV stand 17"><img src="images/TV_17.JPG" alt="Modern TV stand" loading="lazy"><span class="gallery-caption">TV Stand 17</span></button>
+      <button class="gallery-item" type="button" data-category="tv-stands" aria-label="View TV stand 18"><img src="images/TV_18.JPG" alt="Modern TV stand" loading="lazy"><span class="gallery-caption">TV Stand 18</span></button>
+      <button class="gallery-item" type="button" data-category="tv-stands" aria-label="View TV stand 19"><img src="images/TV_19.JPG" alt="Modern TV stand" loading="lazy"><span class="gallery-caption">TV Stand 19</span></button>
+      <button class="gallery-item" type="button" data-category="tv-stands" aria-label="View TV stand 20"><img src="images/TV_20.PNG" alt="Modern TV stand" loading="lazy"><span class="gallery-caption">TV Stand 20</span></button>
+      <button class="gallery-item" type="button" data-category="tv-stands" aria-label="View TV stand 21"><img src="images/TV_21.PNG" alt="Modern TV stand" loading="lazy"><span class="gallery-caption">TV Stand 21</span></button>
+      <button class="gallery-item" type="button" data-category="tv-stands" aria-label="View TV stand 22"><img src="images/TV_22.JPG" alt="Modern TV stand" loading="lazy"><span class="gallery-caption">TV Stand 22</span></button>
+      <button class="gallery-item" type="button" data-category="tv-stands" aria-label="View TV stand 23"><img src="images/TV_23.JPG" alt="Modern TV stand" loading="lazy"><span class="gallery-caption">TV Stand 23</span></button>
+      <button class="gallery-item" type="button" data-category="tv-stands" aria-label="View TV stand 24"><img src="images/TV_24.JPG" alt="Modern TV stand" loading="lazy"><span class="gallery-caption">TV Stand 24</span></button>
+      <button class="gallery-item" type="button" data-category="tv-stands" aria-label="View TV stand 25"><img src="images/TV_25.JPG" alt="Modern TV stand" loading="lazy"><span class="gallery-caption">TV Stand 25</span></button>
+      <button class="gallery-item" type="button" data-category="tv-stands" aria-label="View TV stand 26"><img src="images/TV_26.JPG" alt="Modern TV stand" loading="lazy"><span class="gallery-caption">TV Stand 26</span></button>
+    </div>
+
+    <dialog class="gallery-lightbox" aria-label="Gallery image viewer">
+      <button class="lightbox-close" type="button" aria-label="Close image viewer">&times;</button>
+      <img class="lightbox-image" src="" alt="">
+      <p class="lightbox-caption"></p>
+    </dialog>
+  </section>
+
+  <section class="about" id="about">
+    <h2>About <span>Us</span></h2>
+    <p>
+      At Kisaasi Furniture, we believe every home deserves
+      beauty, comfort and style. We help transform spaces
+      through beautiful furniture and interior solutions.
+    </p>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact <span>Us</span></h2>
+    <p>Ready to give your home a new look?</p>
+
+    <p><strong>Phone:</strong> 0780410231</p>
+    <p><strong>Location:</strong> Kyanja–Kisaasi Road, Uganda</p>
+
+    <a href="tel:+256780410231" class="btn">Call Us</a>
+    <a href="https://wa.me/256780410231" class="btn whatsapp">
+      WhatsApp Us
+    </a>
+  </section>
+
+  <footer>
+    <h3>KISAASI FURNITURE</h3>
+    <p>Give Your Home A New Look.</p>
+    <p>© <span id="year"></span> Kisaasi Furniture. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
